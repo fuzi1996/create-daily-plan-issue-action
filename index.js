@@ -11,8 +11,8 @@ const dayjs = require("dayjs");
 
 function createIssue(octokit) {
   octokit.rest.issues.create({
-    owner: "cuixiaorui",
-    repo: "study-every-day",
+    owner: "fuzi1996",
+    repo: "GithubActionDemo",
     title: getTitle(),
     body: getBody(),
   });
